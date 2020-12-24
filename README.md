@@ -1,0 +1,1 @@
+# How-to-send-sensor-data-to-firebase-Firestore-using-google-app-script
