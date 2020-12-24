@@ -32,7 +32,7 @@ function doGet(e) {
     newRange.setValues([rowData]);
   }
   // Return result of operation
-  firestore();
+  //firestore();
   return ContentService.createTextOutput(result);
 }
 /**
