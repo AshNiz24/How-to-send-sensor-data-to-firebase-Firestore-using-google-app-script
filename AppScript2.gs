@@ -27,9 +27,9 @@ function firestore(){
      if (sourceData[i][1] !=='') {
        var data = {};
        
-       data.Temperature = sourceData[i][0];
-       data.Humidity=sourceData[i][1];
-       firestore.createDocument("Weather log",data);
+      data.temperature = sourceData[i][0];
+       data.humidity=sourceData[i][1];
+       firestore.createDocument("datalog",data);
 
      } 
     
