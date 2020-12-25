@@ -8,7 +8,8 @@ function firestore(){
 
 // get document data from ther spreadsheet
    var ss = SpreadsheetApp.getActiveSpreadsheet();
-   var sheetname = "log";
+   //Give the sheetname of your spreadsheet
+   var sheetname = "YOUR SHEET NAME"; 
    var sheet = ss.getSheetByName(sheetname); 
    // get the last row and column in order to define range
    var sheetLR = sheet.getLastRow(); // get the last row
